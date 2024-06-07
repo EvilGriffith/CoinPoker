@@ -64,4 +64,20 @@
     left: 0;
     bottom: 0;
 }
-
+@media screen and (max-width: 767px) {
+    .cards{
+        width: 0;
+        height: 0;
+    }
+    .logo{
+        width: 87vw;
+        height: 70px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .but{
+        width: 70vw;
+        height: 80px;
+    }
+}
