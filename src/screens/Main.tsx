@@ -18,7 +18,7 @@ export const Main = () => {
                     <div className="contain">
                     <div className="user" onClick={()=>{alert("user")}}/>
                     <div className="logo"/>
-                    <div className="countchip" onClick={()=>{alert("countchip")}}>卐</div>
+                    <div className="countchip" onClick={()=>{alert("countchip")}}>0</div>
                     <div className="chip"/>
                 </div>
                 </div>
