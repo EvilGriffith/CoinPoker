@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.window{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+#one{
+    width: 134px;
+    height: 134px;
+    bottom: -5%;
+    right: 20%;
+    fill: #fff;
+    filter: blur(100px);
+}
+#two{
+    width: 54px;
+    height: 54px;
+    filter: blur(50px);
+    bottom: 45%;
+    right: 40%;
+}
+#three{
+    width: 60px;
+    height: 60px;
+    filter: blur(50px);
+    bottom: 30%;
+    left: 30%;
+}
+#four{
+    width: 90px;
+    height: 90px;
+    filter: blur(90px);
+    left: 15%;
+}
+#fith{
+    width: 132px;
+    height: 132px;
+    background-color: #FF6C6C;
+    filter: blur(110px);
+    right: 7%;
+    top: -10%;
+}
+#sex{
+    width: 115px;
+    height: 115px;
+    background-color: #FFDE68;
+    filter: blur(80px);
+    bottom: 30%;
+    left: -5%;
+}
+#seven{
+    width: 87px;
+    height: 87px;
+    background-color: #FFDE68;
+    filter: blur(70px);
+    bottom: -5%;
+    left: 15%;
+}
